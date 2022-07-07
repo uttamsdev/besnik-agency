@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
 }
 header {
   background: #e6f0ff;
@@ -27,6 +28,7 @@ nav {
   font-weight: 500;
   color: #4f5361;
 }
+
 .login a {
   margin-right: 18px;
   font-size: 16px;
@@ -50,7 +52,7 @@ nav {
 }
 .banner img {
   position: relative;
-  bottom: 20px;
+  bottom: -2px;
 }
 .about {
   width: 560px;
