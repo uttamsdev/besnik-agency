@@ -371,6 +371,7 @@ nav {
     padding: 10px 13px;
     border-radius: 10px;
     cursor: pointer;
+    margin-right: 5px;
 }
 .copyright{
     margin-top: 70px;
