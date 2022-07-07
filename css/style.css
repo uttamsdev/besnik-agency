@@ -261,3 +261,22 @@ nav {
     width: 20px;
     height: 20px;
 }
+.last-section{
+    padding: 150px 300px 0px 300px;
+}
+.hr2{
+    margin: 0;
+}
+.hero{
+    display: flex;
+     gap: 200px;
+}
+.hero-details h1{
+    color: #000339;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.hero-details p{
+    color: #5A6473;
+    font-size: 16px;
+}
