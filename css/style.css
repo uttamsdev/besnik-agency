@@ -340,3 +340,45 @@ nav {
     border-radius: 12px;
     margin-top: 25px;
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 200px; */
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.footer-title{
+    font-size: 20px;
+    color: #1C1C1D;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.product, .resources, .company, .get-in-touch{
+    width: 150px;
+}
+.footer a{
+    color: #7A7A7E;
+    margin-bottom: 10px;
+}
+.getin{
+    color: #7A7A7E;
+}
+.get-in-touch i{
+    margin-top: 14px;
+    background: #F9F9F9;
+    padding: 10px 13px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.copyright{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 580px; */
+}
+.copyright p{
+    color: #7A7A7E;
+}
