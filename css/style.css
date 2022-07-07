@@ -45,7 +45,7 @@ nav {
 .banner {
   display: flex;
   padding: 30px 0px 0px 0px;
-  gap: 100px;
+  gap: 150px;
   /* gap: 200px; */
 }
 .banner img {
@@ -75,12 +75,62 @@ nav {
   margin-bottom: 10px;
 }
 .about a {
-    display: inline-block;
-    padding: 15px 35px;
-    /* width: 98px; */
-    /* height: 40px; */
-    color: white;
-    background-color: #0f1b4c;
-    border-radius: 8px;
-    margin-top: 30px;
-  }
+  display: inline-block;
+  padding: 15px 35px;
+  /* width: 98px; */
+  /* height: 40px; */
+  color: white;
+  background-color: #0f1b4c;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.summary {
+  margin-top: 120px;
+}
+.reviews {
+  display: flex;
+  justify-content: space-around;
+}
+.reviews p {
+  color: #7d8589;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 12px;
+}
+.fa-star {
+  color: orange;
+  font-size: 20px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 60px;
+}
+.logo {
+  /* padding: 10px 40px; */
+  width: 205px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.active-logo {
+  width: 205px;
+  height: 70px;
+  background: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo:hover {
+  /* padding: 25px 40px; */
+  background: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 12px;
+  background-color: white;
+}
