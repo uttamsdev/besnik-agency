@@ -50,7 +50,7 @@ nav {
 }
 .banner img {
   position: relative;
-  bottom: -2px;
+  bottom: 20px;
 }
 .about {
   width: 560px;
@@ -77,12 +77,12 @@ nav {
 .about a {
   display: inline-block;
   padding: 15px 35px;
-  /* width: 98px; */
-  /* height: 40px; */
   color: white;
   background-color: #0f1b4c;
   border-radius: 8px;
   margin-top: 30px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .summary {
@@ -133,4 +133,68 @@ nav {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 12px;
   background-color: white;
+}
+.guidelines-section {
+  margin-top: 120px;
+}
+.hr {
+  height: 6px;
+  background-color: #000339;
+  width: 58px;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+.guidelines-section h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000339;
+  margin-top: 5px;
+}
+.guidelines-section p {
+  text-align: center;
+  font-size: 16px;
+  color: #5a6473;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+.guidelines {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 280px;
+}
+.guidelines img {
+  display: block;
+  margin: 0 auto;
+  /* margin-left: 26px; */
+  /* margin: 0 auto; */
+}
+.guidelines h3 {
+  color: #3b3c45;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.guideline {
+  width: 170px;
+}
+.guideline > a {
+  color: #0689ff;
+  font-weight: 600;
+  text-align: center;
+}
+.full-guideline {
+    display: block;
+    margin: 0 auto;
+  width: 150px;
+  margin-top: 45px;
+  padding: 15px 35px;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  background-color: #0F1B4C;
+border-radius: 12px;
+font-size: 15px;
 }
