@@ -185,8 +185,8 @@ nav {
   text-align: center;
 }
 .full-guideline {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
   width: 150px;
   margin-top: 45px;
   padding: 15px 35px;
@@ -194,7 +194,70 @@ nav {
   border-radius: 8px;
   text-align: center;
   font-weight: 500;
-  background-color: #0F1B4C;
-border-radius: 12px;
-font-size: 15px;
+  background-color: #0f1b4c;
+  border-radius: 12px;
+  font-size: 15px;
+}
+.feature-section {
+  background-color: #f5fafe;
+  margin-top: 110px;
+  padding: 110px 400px;
+}
+.feature-title {
+  color: #000339;
+  font-size: 35px;
+  font-weight: 600;
+}
+.feature-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 70px;
+}
+.feature-info > p {
+  color: #5a6473;
+  font-size: 16px;
+}
+.feature-info a {
+  font-size: 18px;
+  color: #0689ff;
+  font-weight: 600;
+}
+.feature-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.feature-card {
+  width: 350px;
+  background: #ffffff;
+  box-shadow: 0px 65px 80px -46px rgba(226, 238, 249, 0.6);
+  border-radius: 12px;
+  padding-bottom: 30px;
+}
+.feature-card h2{
+    color: #000339;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.feature-card > p{
+    font-size: 15px;
+    color: #A3A6AB;
+    /* margin-left: 20px; */
+    font-weight: 500;
+    margin: 8px 0px 20px 20px;
+}
+.facilities-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.facilities{
+    display: flex;
+    gap: 8px;
+}
+.facilities .last-icon{
+    width: 20px;
+    height: 20px;
 }
