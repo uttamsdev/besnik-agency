@@ -46,8 +46,9 @@ nav {
 }
 .banner {
   display: flex;
+  justify-content: center;
   padding: 30px 0px 0px 0px;
-  gap: 150px;
+  gap: 200px;
   /* gap: 200px; */
 }
 .banner img {
@@ -57,7 +58,7 @@ nav {
 .about {
   width: 560px;
   /* padding: 100px 200px; */
-  padding: 130px 280px;
+  padding: 130px 100px;
 }
 .about p {
   /* width: 400px; */
@@ -107,7 +108,7 @@ nav {
 .logos {
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 100px;
   margin-top: 60px;
 }
 .logo {
@@ -259,6 +260,9 @@ nav {
   display: flex;
   gap: 8px;
 }
+.facilities > p{
+  font-size: 16px;
+}
 .facilities .last-icon {
   width: 20px;
   height: 20px;
@@ -271,7 +275,11 @@ nav {
 }
 .hero {
   display: flex;
+  justify-content: center;
   gap: 200px;
+}
+.hero-details{
+  width: 800px;
 }
 .hero-details h1 {
   color: #000339;
@@ -309,8 +317,11 @@ nav {
 }
 .support {
   width: 1300px;
+  margin: 0 auto;
   background-color: #063183;
   display: flex;
+  justify-content: center !important;
+  /* align-items: center !important; */
   gap: 180px;
   margin-bottom: 120px;
   margin-top: 100px;
